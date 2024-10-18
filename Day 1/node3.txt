@@ -1,0 +1,13 @@
+idle v/s ide
+
+
+ide : 
+
+
+compiler : 
+whole code compile and execute if no error found in code, 
+if any single error in the source code code can not get execute
+
+interpter: 
+code execute and compile line by line it execute code until completion or error found and 
+return error or warning  

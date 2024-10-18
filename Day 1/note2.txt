@@ -1,0 +1,37 @@
+step 1 : open browser 
+step 2 : write or search www.python.org
+step 3 : click on download section
+step 4 : click on lts version of python 
+step 5 : check on your download folder 
+step 6 : double click on your donloaded file for install 
+step 7 : click on add to path on first dialoug box 
+step 8 : simple click on next next and next 
+step 9 : after finish your installing click on search bar in your system 
+step 10 : idle and press enter 
+python provide two modes 
+1. interactive mode (calculator mode) : single line codes,automatically execute, not save for future 
+2. scriptive mode : multiple line codes which is execute by pressing f5  
+		->are you want to save this code : yes / no
+		->if user press yes it ask the name of file ----for example hello.py
+		->press enter and your file is compile and execute line by line beacuse python is a interpreter programming language   
+for writting python code in scriptive mode : 
+open scriptive mode or use any text editor e.g notepad , text editor ,
+-> Python code execute using idle (intergrated development of learning enviroment )
+	1. open idle 
+	2. press control + n for open script mode 
+	3. simple write python code 
+			print("Hello ! Daimand Batch")
+	4. for saving and execute press f5 (laptop ->fn+f5)
+	5. select your location (e.g. C:/Users/akash/Desktop/Python 1pm/Day 1/akash.py)
+	6. save file after it will automatically execute and compile both 
+-> python code execute using text editor : 
+	1. open text editor 
+	2. write python code 
+ 	3. save this code press control+s 
+	4. for saving source code file select location and give the name (e.g akash.py) 
+	5. open command prompt or terminal in same location and write command for execute python source code 
+		windows operating system
+			-> py akash.py 
+			-> python akash.py
+		ubantu operating system 		
+			-> python3 akash.py 
