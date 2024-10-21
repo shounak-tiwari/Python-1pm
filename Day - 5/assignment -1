@@ -1,0 +1,118 @@
+
+Operators : operators is a special symbolls which is use to perform some specific operations 
+or operators is a sumbolls which is performe some operation between one two or more oprands 
+1. Arithemetic operators 
+2. Relational operators 
+3. Logical operators 
+4. Membership operators 
+5. Identity operators 
+6. Assignment operators 
+7. Arithmetic assignment operators 
+8. Bit-wise operators
+-----------------------------------------------------------------------------------------------------------------------------------------
+Arithmetics operators 
+-> sum (+)
+-> sub (-)
+-> multiplication (*)
+-> division in float(decimals)  (/)
+-> remainder (mod)  (%)
+-> floor(int) division (//)
+-> exponetional power (**)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+source code : 
+
+a =10
+b =2
+print("the sum of a and b : ",a+b)
+print("the sub of a and b : ",a-b)
+print("the multiplication of a and b : ",a*b)
+print("the diviosion decimals of a and b : ",a/b)
+print("the remainder of a and b : ",a%b)
+print("the div in int of a and b : ",a//b)
+print("the expo power of a and b : ",a**b)
+
+
+output : 
+
+RESTART: C:/Users/akash/Desktop/Python 6pm/Day 4/arithmetics.py
+the sum of a and b :  12
+the sub of a and b :  8
+the multiplication of a and b :  20
+the diviosion decimals of a and b :  5.0
+the remainder of a and b :  0
+the div in int of a and b :  5
+the expo power of a and b :  100
+-------------------------------------------------------------------------------------------------------------------------------------------
+Q1. enter two number using input function and print thier sum without using + operator using 
+magic methods 
+ans :- 
+
+source code: 
+
+a =10
+b =20
+a.__add__(b)
+
+output : 
+30
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2 where __add__() methods is define write thier class name 
+ans :- number denotes  (int class ,float class ) 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+home work : 
+
+Add two numbers: a = 12, b = 7
+Subtract two numbers: a = 15, b = 4
+Multiply two numbers: a = 9, b = 3
+Divide two numbers: a = 100, b = 5
+Calculate the remainder of two numbers: a = 17, b = 3
+Floor division of two numbers: a = 45, b = 6
+Calculate power: a = 5, b = 3
+Swap two numbers without using a third variable: a = 7, b = 9
+Find the square of a number: a = 6
+Find the cube of a number: a = 4
+Find the average of three numbers: a = 7, b = 5, c = 3
+Find the maximum of two numbers: a = 10, b = 20
+Find the minimum of two numbers: a = 11, b = 8
+Calculate the absolute difference between two numbers: a = 21, b = 8
+Add two floating-point numbers: a = 3.5, b = 2.8
+Multiply three numbers: a = 3, b = 2, c = 4
+Find the remainder when one number is divided by another: a = 23, b = 5
+Convert temperature from Celsius to Fahrenheit: C = 25
+Convert temperature from Fahrenheit to Celsius: F = 77
+Calculate the simple interest: P = 1000, R = 5, T = 2
+Calculate compound interest: P = 1500, R = 4, T = 3
+Calculate the area of a rectangle: length = 10, width = 5
+Calculate the perimeter of a rectangle: length = 8, width = 6
+Calculate the area of a circle: radius = 7
+Calculate the circumference of a circle: radius = 6
+Calculate the area of a triangle using base and height: base = 5, height = 9
+Calculate the hypotenuse of a right-angled triangle: base = 3, height = 4
+Find the maximum of three numbers: a = 14, b = 9, c = 10
+Find the minimum of three numbers: a = 17, b = 5, c = 12
+Multiply a number by 10 without using multiplication operator.
+Divide a number by 2 without using division operator.
+Check if a number is divisible by 7: a = 49
+Check if a number is divisible by both 3 and 5: a = 30
+Calculate the sum of first 10 natural numbers.
+Calculate the factorial of a number: n = 5
+Calculate the square root of a number without using sqrt function: a = 16
+Find the sum of all even numbers from 1 to 100.
+Find the sum of all odd numbers from 1 to 50.
+Find the greatest common divisor (GCD) of two numbers: a = 24, b = 36
+Find the least common multiple (LCM) of two numbers: a = 6, b = 8
+Check if a number is a prime number: n = 29
+Check if a number is a perfect square: n = 49
+Check if a number is a perfect cube: n = 27
+Find the sum of digits of a number: n = 345
+Reverse the digits of a number: n = 1234
+Find the second largest number in a list: list = [12, 3, 5, 9, 21]
+Find the sum of numbers in a list: list = [10, 20, 30, 40]
+Calculate the product of numbers in a list: list = [3, 5, 7]
+Find the difference between the largest and smallest numbers in a list: list = [10, 2, 5, 8, 3]
+Create a Python program that performs all basic arithmetic operations (+, -, *, /, %, **) on two numbers input by the user.
+
+
