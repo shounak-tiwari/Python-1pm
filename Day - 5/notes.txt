@@ -1,0 +1,61 @@
+/ division / 
+
+source code :
+a = 10 
+b = 3
+
+div = a/b
+
+print("the result : ",div)
+
+
+
+output :
+
+administrator@ak:~/Desktop/classes/python/Python 1pm/Day - 5$ python3 arithmetic1.py
+the result :  3.3333333333333335
+
+-------------------------------------------------------------------------------------------
+
+
+// floor division : it returns values in int format 
+
+
+source code : 
+a = 10 
+b = 3
+div = a//b
+print("the result : ",div)
+
+output:
+administrator@ak:~/Desktop/classes/python/Python 1pm/Day - 5$ python3 arithmetic1.py
+the result :  3
+
+-------------------------------------------------------------------------------------------
+
+
+**  expo powers 
+
+
+source code :
+
+#we have two element a, b and if a**b then thier answer is a to power b 
+a = 11
+b = 2
+power = a**b
+print("The result is : ",power)
+
+
+
+output:
+
+administrator@ak:~/Desktop/classes/python/Python 1pm/Day - 5$ python3 arimetic2.py
+The result is :  121
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
