@@ -1,0 +1,23 @@
+Arithmetic assignment operators (+=,-=,*=,/=,%=,**=,//=)
+
+
+binary operators : 
+when we want to perform operations between bits use binary of any decimals like 15-> 1111 and 53 -> 110101
+
+in python, binary is calculate using bin() methods
+
+
+binary operators are : 
+
+at least two decimals bit required : 
+
+1. and & 
+2. or  | 
+3. xor ^
+
+only one decimals bit required  : 
+
+4. right-shift >>
+5. left-shift  <<
+6. compliment  ~
+
