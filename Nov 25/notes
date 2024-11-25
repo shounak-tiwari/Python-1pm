@@ -1,0 +1,18 @@
+function in python 
+
+function (behavior of python) : function is generally called block of code which is executed when it is call
+
+python have two types function 
+
+	1. default function
+		default function in python is an genral function which is define using def keywords this function have block of code this have one or more than one line 
+		this function is not a single function and have thier own name 
+
+	2. lambda function :
+		lambda function is represent using lambda keywords or anthor words we can say that lambda function is define using lambda keywords
+
+		lambda function is a single line anonymus function it store inside a object which is also called a lambda object this function is use for making easy programming in a python 
+		this is a single line but it is default return values we are not use any output function inside in it for doining effecint programming 
+
+
+	3. high order function 
