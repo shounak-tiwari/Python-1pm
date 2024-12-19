@@ -1,0 +1,5 @@
+1. single inheritance 
+2. multiple inheritance 
+3. multilevel inheritance
+4. hierarchal inheritance
+5. hybrid inheritance
