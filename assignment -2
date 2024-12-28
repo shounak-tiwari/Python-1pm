@@ -1,0 +1,62 @@
+Conceptual Questions
+
+What is abstraction in the context of object-oriented programming?
+How does abstraction help in software development?
+What are the key principles of abstraction?
+How is abstraction achieved in Python?
+What is the difference between abstraction and encapsulation?
+Abstract Classes and Methods
+
+What is an abstract class in Python?
+How do you create an abstract class in Python?
+What is an abstract method?
+Why are abstract methods declared without implementation?
+Can you create an instance of an abstract class?
+Interfaces
+
+What is an interface in Python?
+How are interfaces implemented in Python?
+What are the benefits of using interfaces?
+How do you ensure that a class implements all the methods of an interface?
+Can an interface inherit from another interface?
+Design Patterns
+
+What is the purpose of the Template Method design pattern?
+How is the Template Method pattern implemented in Python?
+What is the purpose of the Strategy design pattern?
+How is the Strategy pattern implemented in Python?
+What is the purpose of the Factory Method design pattern?
+How is the Factory Method pattern implemented in Python?
+Real-World Examples
+
+Give an example of abstraction in a banking system.
+Give an example of abstraction in a car rental system.
+Give an example of abstraction in a game development scenario.
+How is abstraction used in web frameworks like Django and Flask?
+Coding Challenges
+
+Create an abstract class Shape with abstract methods area() and perimeter().
+Create concrete classes Circle, Rectangle, and Triangle that inherit from Shape and implement the abstract methods.
+Create an interface DataStorage with methods read() and write().
+Create classes FileStorage and DatabaseStorage that implement the DataStorage interface.
+Create a Vehicle interface with methods start(), stop(), and accelerate().
+Create classes Car, Motorcycle, and Bicycle that implement the Vehicle interface.
+Implement the Template Method pattern to create a generic sorting algorithm.
+Implement the Strategy pattern to create different sorting algorithms (e.g., bubble sort, insertion sort).
+Implement the Factory Method pattern to create different types of vehicles.
+Create an abstract class Animal with abstract methods make_sound() and move().
+Create concrete classes Dog, Cat, and Bird that inherit from Animal and implement the abstract methods.
+Design an abstract class for a user interface element.
+Create concrete classes for buttons, text fields, and labels that inherit from the UI element class.
+Design an abstract class for a network connection.
+Create concrete classes for TCP and UDP connections that inherit from the network connection class.
+Create an abstract class for a payment gateway.
+Create concrete classes for different payment gateways (e.g., credit card, PayPal) that inherit from the payment gateway class.
+Design an abstract class for a logging system.
+Create concrete classes for file logging and database logging that inherit from the logging system class.
+Create an abstract class for a data source.
+Create concrete classes for accessing data from a database, a file, and an API that inherit from the data source class.
+Design an abstract class for a search engine.
+Create concrete classes for different search algorithms (e.g., breadth-first search, depth-first search) that inherit from the search engine class.
+Design an abstract class for a caching mechanism.
+Create concrete classes for different caching strategies (e.g., in-memory cache, disk cache) that inherit from the caching mechanism class.
