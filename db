@@ -1,0 +1,47 @@
+import mysql.connector
+from mysql.connector import Error
+
+try:
+    # Establish a connection to the MySQL database
+    connection = mysql.connector.connect(
+        host='localhost',       # Replace with your host (e.g., "127.0.0.1")
+        user='root',   # Replace with your MySQL username
+        password='root',  # Replace with your MySQL password
+        database='My_Mind'   # Replace with your database name
+    )
+
+    if connection.is_connected():
+        print("Connected to MySQL database")
+
+        # Create a cursor object to execute queries
+        cursor = connection.cursor()
+
+        # Example: Create a table
+        cursor.execute("""
+        CREATE TABLE IF NOT EXISTS users (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            name VARCHAR(100) NOT NULL,
+            age INT NOT NULL
+        )
+        """)
+        print("Table created successfully")
+
+        # Example: Insert data
+        cursor.execute("INSERT INTO users (name, age) VALUES (%s, %s)", ("Alice", 30))
+        connection.commit()
+        print("Data inserted successfully")
+
+        # Example: Query data
+        cursor.execute("SELECT * FROM users")
+        for row in cursor.fetchall():
+            print(row)
+
+except Error as e:
+    print(f"Error: {e}")
+
+finally:
+    # Close the connection
+    if connection.is_connected():
+        cursor.close()
+        connection.close()
+        print("MySQL connection closed")
