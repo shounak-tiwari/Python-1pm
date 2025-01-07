@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: transparent;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    background-image: linear-gradient(to top left ,rgb(1, 52, 52),rgb(1, 174, 174),rgb(6, 255, 255),rgb(3, 222, 222),rgb(3, 114, 114),rgb(0, 73, 73));
+    /* background-color: ; */
+    /* display: grid; */
+    /* grid-template-columns:repeat(4,1fr); */
+}
+
+.logo{
+    border: 2px solid red;
+}
+
+
+
+.nav{
+    background: none;
+    position: absolute;
+    right: 40px;
+    list-style-type: none;
+}
+
+.nav li{
+    margin-left: 10px ;
+}
+
+.nav li a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    transition: 4s;
+}
+
+.nav-link:hover{
+    color: darkblue;
+    text-decoration: 2px 2px 2px black;
+    /* font-size: 25px; */
+
+}
+
+
+.brand-name{
+    /* border: 2px solid white; */
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+
+.sec2{
+    /* background-color: darkcyan; */
+    /* height: 20rem; */
+}
+
+.whatwedo{
+    color: rgb(17, 1, 1);
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 2px goldenrod;
+}
+
+
+
+.maincards{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+.aboutimgdetails{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.wedocard{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.card-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.card-details{
+    text-align: center;
+    font-weight: bolder;
+}
