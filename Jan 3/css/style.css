@@ -85,7 +85,8 @@ header{
 }
 
 .wedocard{
-    padding: 10px;
+    position: relative;
+    /* padding: 10px; */
     margin: 5px;
     border-radius: 10px;
     border: 1px solid black;
@@ -98,4 +99,40 @@ header{
 .card-details{
     text-align: center;
     font-weight: bolder;
+}
+
+.card-alldetails{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 139, 139, 0.945);
+    height: 100px;
+    display:inline-block;
+    width:0%;
+    border-radius: 10px;
+}
+
+.alldetailsul{
+    overflow: hidden;
+    list-style: none;
+    height: auto;
+
+}
+
+
+
+
+.wedocard:hover .card-alldetails{
+ 
+    transition: width 0.5s ease-in-out;
+    width: 100%;
+    
+}
+
+
+.details{
+    padding: 30px;
+}
+
+.weimg{
+    padding: 30px;
 }
